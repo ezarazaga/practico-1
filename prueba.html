@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="iso-8559-1"/>
+    <meta name="description" content="pagina de enseñanza html"/> <!--sirve para la descripcion en la pestaña y tambien para el buscador encuentre la pagina-->
+    <meta name="keywords" content="html5,css3, Javascript, diseño web"/>
+
+    <title>Pagina de programacion en HTML5</title> <!--Ti tulo de la pagina-->
+
+    <link rel="stylesheet" href="mihojadeestilos.css"/> <!--referencia de los css que se van a añadir-->
+
+</head>
+<body> <!--es el cuerpo de la pagina, la parte visible -->
+    <header id="cabeceraweb"> <!--encabezado-->
+        <h1>Este seria el titulo de nuestra web</h1>
+    </header>
+
+    <nav id="navegacionprincipal"> <!--Buscador-->
+        <ul>
+            <li>Quiénes somos</li>
+            <li>Nuestros Productos</li>
+            <li>Contáctanos</li>
+            <li>Precios</li>
+
+        </ul>
+    </nav>
+
+    <aside id="barralateral"> <!--Barra lateral-->
+        <blockquote> Primer elemento</blockquote>
+        <blockquote> Segundo elemento</blockquote>
+        <blockquote> Tercer elemento</blockquote>
+    </aside>
+
+    <section id="contenidoprincipal"> <!--Cuerpo de la pagina-->
+        <article> <!--sirve para unir iguales articulos o tipos como en este caso noticia 1-->
+            <header> <!--de puede colocar un encabezado dentro de un cuerpo -->
+                <hgroup>
+                    <h2> Titulo de la noticia 1</h2>
+                    <h3>Subtitulo de la noticia 1</h3>
+                </hgroup>-
+                        
+            </header>
+
+            <figcaption> <!--pie de imagen-->  
+            <img src="imagenes/Paisaje_abejorral_1.jpg"
+
+            <figcaption>
+                hermoso paisaje de las sierras
+            </figcaption>
+            </figure> <!--insertar imagen-->
+             
+                <p><mark>Noticia 1</mark></p> <!--mark se utiliza para resaltar-->
+                <p>seguimos <strong>hablando</strong> de noticia 1</p>
+                <p>Terminamos de hablar de la <em>noticia 1</em></p> <!--pone la palabra en cursiva-->
+            <footer> <!--Tambien se puede colocar pie de pagina dentro del cuerpo-->
+                <p>Comentarios de usuarios</p>
+            </footer>
+        </article>
+        
+        <article>
+            <header> <!--de puede colocar un encabezado dentro de un cuerpo -->
+                <hgroup>
+                    <h2> Titulo de la noticia 2</h2>
+                    <h3>Subtitulo de la noticia 2</h3>
+                </hgroup>-
+                <time datetime="2019/10/30" pubdate>Noticia publicada el dia 30/12/2019</time>                        
+            </header>
+
+                <p><cite>Vikingos</cite></p> <!--cite se utiliza para decir que es una cancion, pelicula-->
+                <p><cite>una de las mejores series medievales</cite></p>
+                <p>Terminamos de hablar de la noticia 2</p>
+
+            <footer> <!--Tambien se puede colocar pie de pagina dentro del cuerpo-->
+                <p>Comentarios de usuarios</p>
+            </footer>
+
+        </article>
+        
+        <article>
+            <header>
+                <h2> Titulo de la noticia 3</h2>
+            </header>
+                <p>Noticia 3</p>
+                <p>seguimos hablando de noticia 3</p>
+                <p>Terminamos de hablar de la noticia 3</p>
+        
+
+        </article>
+        
+
+    </section>
+
+    <footer id="pieprincipal"> <!--pie de pagina-->
+        <small>Derechos reservados</small> <address>Telefono:3585010978</address> <!----se utiliza cuando se quiere colocar un copyrigth-->
+    </footer>
+</body>
+</html>

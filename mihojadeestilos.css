@@ -1,0 +1,27 @@
+#cabeceraweb{
+    background-color: blue;
+}
+
+#navegacionprincipal{
+    background-color: aqua;
+}
+
+#barralateral{
+    background-color: coral;
+    float: left;
+    height: 1080px;
+}
+
+#contenidoprincipal{
+    background-color: darkmagenta;
+    margin-left: 200px;
+    padding-left: 200px;
+}
+#pieprincipal{
+    background-color: deeppink;
+    clear: both; 
+}
+li{
+    background-color: cadetblue;
+    display: inline;
+}
